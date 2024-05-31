@@ -1,4 +1,4 @@
-import SearchBox from '../SearchBox/SearchBox';
+import SearchBox from '../SearchBox/SearchBox'
 import Logo from '../Logo/Logo';
 import './Navbar.css';
 

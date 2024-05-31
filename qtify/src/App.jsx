@@ -30,8 +30,9 @@ function App() {
         <Navbar />
         <HeroSection />
         <CardSection name="Top Albums" songsData={topSongsData} />
-        <CardSection name="New Albums" songsData={newSongsData} />
-        <CardSection name="Songs" songsData={songsData} showFilters />
+        <CardSection name="New Albums" songsData={newSongsData} /> 
+        <CardSection name="Songs" songsData={songsData} showFilters /> 
+
         <AccordionSection />
       </div>
     </>

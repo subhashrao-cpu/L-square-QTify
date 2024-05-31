@@ -1,6 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import Card from '../Card/Card';
+import React, { useState } from 'react';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -11,11 +12,13 @@ import './CardCarouselSection.css';
 import { Pagination, Navigation } from 'swiper/modules';
 
 const CardCarouselSection = ({ name, songsData }) => {
+
   return (
     <div className="swiper">
       <Swiper
-        slidesPerView={10}
-        spaceBetween={10}
+        slidesPerView={8}
+        spaceBetween={8}
+
         navigation={{
           nextEl: `#${name.split(' ').join('')}-right`,
           prevEl: `#${name.split(' ').join('')}-left`,

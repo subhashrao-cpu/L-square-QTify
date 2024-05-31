@@ -13,6 +13,8 @@ const CardSection = ({ name, songsData, showFilters }) => {
     setFilteredSongsData([...songsData]);
   }, [songsData]);
 
+  
+
   return (
     <div className="section-container">
       <div className="text-container">
@@ -33,13 +35,12 @@ const CardSection = ({ name, songsData, showFilters }) => {
         />
       ) : null}
       <div className="card-container">
-        {isCollapsed ? (
-          <CardCarouselSection name={name} songsData={filteredSongsData} />
-        ) : (
-          <>
+        {isCollapsed ?
+         (<CardCarouselSection  name={name} songsData={filteredSongsData} />  ) : 
+         (<>
             <CardGridSection songsData={filteredSongsData} />
-          </>
-        )}
+          </>)
+         }
       </div>
     </div>
   );

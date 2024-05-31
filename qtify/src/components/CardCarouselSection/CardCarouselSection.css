@@ -1,7 +1,6 @@
 .swiper {
     position: relative;
     padding: 0 8px;
-    gap: 3rem;
   }
   
   .slider-btn {
@@ -22,5 +21,5 @@
     right: 10px;
   }
   .swiper-wrapper {
-    gap: 3rem;
+    gap: 0px;
   }

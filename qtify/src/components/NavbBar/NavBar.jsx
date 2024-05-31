@@ -1,6 +1,6 @@
 import SearchBox from '../SearchBox/SearchBox';
 import Logo from '../Logo/Logo';
-import './Navbar.css';
+import './NavBar.css';
 
 const Navbar = () => {
   return (

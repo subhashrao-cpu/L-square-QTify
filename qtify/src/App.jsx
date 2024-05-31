@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/NavbBar/NavBar';
 import HeroSection from './components/HeroSection/HeroSection';
 import CardSection from './components/CardSection/CardSection';
 

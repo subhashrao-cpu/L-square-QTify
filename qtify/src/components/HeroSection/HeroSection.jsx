@@ -1,15 +1,11 @@
-import React from "react";
-import Styles from "./HeroSection.module.css";
-import { ReactComponent as VibratingHeadphone } from "../../assets/vibratingHeadphone.svg";
-
+import './HeroSection.css';
 const HeroSection = () => {
   return (
-    <div className={Styles.HeroContainer}>
-      <div className={Styles.HeroText}>
-        <div>100 Thousand Songs, ad-free</div>
-        <div>Over thousands podcast episodes</div>
-      </div>
-      <VibratingHeadphone />
+    <div className="hero-section">
+      <img
+        src="HeroImage.png"
+        alt="100 Thousand Songs, ad-free Over thousands podcast episodes"
+      />
     </div>
   );
 };
